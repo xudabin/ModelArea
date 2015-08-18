@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'ModelArea' do
+
+platform :ios, '7.0'
+pod "AFNetworking", "~> 2.0"
+
+pod 'SVProgressHUD'
+pod 'MJRefresh'
+pod 'MJExtension'
+pod 'DZNEmptyDataSet'
+
+end
+
+target 'ModelAreaTests' do
+
+end
+

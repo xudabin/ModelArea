@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>girl_0.jpg</string>
+		<key>name</key>
+		<string>Kelly</string>
+		<key>address</key>
+		<string>北京.朝阳</string>
+		<key>price</key>
+		<string>300</string>
+		<key>charm</key>
+		<string>456</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>girl_1.jpg</string>
+		<key>name</key>
+		<string>Pink</string>
+		<key>address</key>
+		<string>杭州.下沙</string>
+		<key>price</key>
+		<string>300</string>
+		<key>charm</key>
+		<string>789</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>陈子欣</string>
+		<key>image</key>
+		<string>c.png</string>
+		<key>address</key>
+		<string>湖北.武汉</string>
+		<key>price</key>
+		<string>350</string>
+		<key>charm</key>
+		<string>867</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Burns</string>
+		<key>image</key>
+		<string>girl_2.jpg</string>
+		<key>address</key>
+		<string>湖南.长沙</string>
+		<key>price</key>
+		<string>400</string>
+		<key>charm</key>
+		<string>799</string>
+	</dict>
+</array>
+</plist>

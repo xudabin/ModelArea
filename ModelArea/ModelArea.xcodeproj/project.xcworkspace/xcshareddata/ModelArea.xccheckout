@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9BECA0C-4C9E-4C0C-B8EE-C338211871BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ModelArea</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e20330b8-6e44-204c-854b-717ba2db0434</key>
+		<string>https://192.168.0.116/svn/modelarea</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ModelArea/ModelArea.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e20330b8-6e44-204c-854b-717ba2db0434</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e20330b8-6e44-204c-854b-717ba2db0434</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e20330b8-6e44-204c-854b-717ba2db0434</string>
+			<key>IDESourceControlWCCName</key>
+			<string>modelarea</string>
+		</dict>
+	</array>
+</dict>
+</plist>

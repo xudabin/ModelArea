@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>register_user_icon.png</string>
+		<key>placeholder</key>
+		<string>填写用户名</string>
+	</dict>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>register_birthday_icon</string>
+			<key>placeholder</key>
+			<string>请选择生日</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>register_sex_icon</string>
+			<key>placeholder</key>
+			<string>请选择性别</string>
+		</dict>
+	</array>
+	<dict>
+		<key>icon</key>
+		<string>register_catogory_icon</string>
+		<key>placeholder</key>
+		<string>请选择类别</string>
+	</dict>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>register_phone_icon</string>
+			<key>placeholder</key>
+			<string>填写手机号码</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>register_code_icon</string>
+			<key>placeholder</key>
+			<string>请输入验证码</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>icon</key>
+			<string>register_pwd_icon</string>
+			<key>placeholder</key>
+			<string>请输入密码</string>
+		</dict>
+		<dict>
+			<key>icon</key>
+			<string>register_pwd_icon</string>
+			<key>placeholder</key>
+			<string>请确认密码</string>
+		</dict>
+	</array>
+</array>
+</plist>

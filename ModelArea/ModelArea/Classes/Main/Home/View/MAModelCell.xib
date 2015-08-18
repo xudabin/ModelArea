@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionCell" id="gTV-IL-0wX" customClass="MAModelCell">
+            <rect key="frame" x="0.0" y="0.0" width="220" height="180"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="220" height="180"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f4G-T7-2gw">
+                        <rect key="frame" x="0.0" y="0.0" width="220" height="180"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius ">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <view alpha="0.59999999999999964" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zFK-Mk-MQe">
+                        <rect key="frame" x="0.0" y="140" width="220" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kelly" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R2S-ZO-dc3">
+                                <rect key="frame" x="8" y="0.0" width="110" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京.朝阳" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M9Q-3B-HRt">
+                                <rect key="frame" x="110" y="0.0" width="110" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="M9Q-3B-HRt" firstAttribute="top" secondItem="zFK-Mk-MQe" secondAttribute="top" id="EZM-TC-KyX"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="top" secondItem="zFK-Mk-MQe" secondAttribute="top" id="FOB-W1-G6A"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="leading" secondItem="zFK-Mk-MQe" secondAttribute="leading" constant="8" id="NzG-64-hIK"/>
+                            <constraint firstAttribute="trailing" secondItem="M9Q-3B-HRt" secondAttribute="trailing" id="OXD-t2-nog"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="height" secondItem="zFK-Mk-MQe" secondAttribute="height" id="TPI-YW-6oz"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="width" secondItem="M9Q-3B-HRt" secondAttribute="width" id="i2u-f0-dlt"/>
+                            <constraint firstAttribute="height" constant="40" id="nFt-lA-Ugf"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="height" secondItem="M9Q-3B-HRt" secondAttribute="height" id="qBl-3v-RwV"/>
+                            <constraint firstItem="R2S-ZO-dc3" firstAttribute="width" secondItem="zFK-Mk-MQe" secondAttribute="width" multiplier="0.5" id="wrF-aa-feD"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="f4G-T7-2gw" secondAttribute="bottom" id="5gX-q0-XQX"/>
+                <constraint firstAttribute="trailing" secondItem="zFK-Mk-MQe" secondAttribute="trailing" id="aPS-ah-ETQ"/>
+                <constraint firstItem="f4G-T7-2gw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="bta-Mt-Co8"/>
+                <constraint firstAttribute="bottom" secondItem="zFK-Mk-MQe" secondAttribute="bottom" id="lVy-H1-2N7"/>
+                <constraint firstAttribute="trailing" secondItem="f4G-T7-2gw" secondAttribute="trailing" id="ruO-Og-ePp"/>
+                <constraint firstItem="zFK-Mk-MQe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wVH-e0-8Vr"/>
+                <constraint firstItem="f4G-T7-2gw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xde-ID-CTa"/>
+            </constraints>
+            <size key="customSize" width="220" height="220"/>
+            <connections>
+                <outlet property="address" destination="M9Q-3B-HRt" id="urW-5R-pwW"/>
+                <outlet property="imageView" destination="f4G-T7-2gw" id="zdP-bU-F0f"/>
+                <outlet property="name" destination="R2S-ZO-dc3" id="NP4-CR-tI9"/>
+            </connections>
+            <point key="canvasLocation" x="326" y="338"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="girl.jpg" width="586" height="920"/>
+    </resources>
+</document>

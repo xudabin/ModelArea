@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>时  间</string>
+			<key>desc</key>
+			<string>2015.07.30</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>价  格</string>
+			<key>desc</key>
+			<string>1000元（2小时）</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>地  点</string>
+			<key>desc</key>
+			<string>北京</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>类  型</string>
+			<key>desc</key>
+			<string>平面模特</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>活动说明</string>
+			<key>desc</key>
+			<string>时间自由。</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>综合分数</string>
+			<key>desc</key>
+			<string>10分</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>评  论</string>
+			<key>desc</key>
+			<string>街拍，文艺，小清新，校园风等风格驾驭的很好。</string>
+		</dict>
+	</array>
+</array>
+</plist>

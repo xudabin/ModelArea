@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>模特类型</string>
+			<key>desc</key>
+			<string>平面模特    脚模</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>模特荣誉</string>
+			<key>placeholder</key>
+			<string>请选择类别</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>价    格</string>
+			<key>desc</key>
+			<string>500元(2小时)</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>备注</string>
+			<key>desc</key>
+			<string>时间自由。可接私房，街拍，文艺，小清新，校园风，尺度只到内衣。</string>
+		</dict>
+	</array>
+</array>
+</plist>

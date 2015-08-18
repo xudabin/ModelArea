@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MAPhotographerCell" id="gTV-IL-0wX" customClass="MAPhotographerCell">
+            <rect key="frame" x="0.0" y="0.0" width="424" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="424" height="140"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UqH-kz-XKX" userLabel="top">
+                        <rect key="frame" x="0.0" y="0.0" width="424" height="45"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="aa.png" translatesAutoresizingMaskIntoConstraints="NO" id="Xyy-E1-zna">
+                                <rect key="frame" x="8" y="2" width="35" height="35"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="杭州" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UiM-9V-Jt1">
+                                <rect key="frame" x="149" y="9" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home_locate" translatesAutoresizingMaskIntoConstraints="NO" id="eHx-hH-Ztv">
+                                <rect key="frame" x="131" y="12" width="11" height="15"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="刘晓溪" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8EO-pY-1vj">
+                                <rect key="frame" x="57" y="9" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="Ltv-ul-xTN"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tNt-VA-8bi" userLabel="bottom">
+                        <rect key="frame" x="0.0" y="45" width="424" height="95"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="tNt-VA-8bi" secondAttribute="bottom" id="3S0-Cu-psx"/>
+                <constraint firstItem="UqH-kz-XKX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="D0v-8E-d1r"/>
+                <constraint firstItem="UqH-kz-XKX" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ItM-Xe-M7O"/>
+                <constraint firstAttribute="trailing" secondItem="tNt-VA-8bi" secondAttribute="trailing" id="MFq-xk-qZD"/>
+                <constraint firstItem="tNt-VA-8bi" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cSR-S9-em5"/>
+                <constraint firstAttribute="trailing" secondItem="UqH-kz-XKX" secondAttribute="trailing" id="eHB-Ko-kgy"/>
+                <constraint firstItem="tNt-VA-8bi" firstAttribute="top" secondItem="UqH-kz-XKX" secondAttribute="bottom" id="tiU-Q7-bMw"/>
+                <constraint firstItem="tNt-VA-8bi" firstAttribute="top" secondItem="UqH-kz-XKX" secondAttribute="bottom" id="z19-Gw-jdY"/>
+            </constraints>
+            <size key="customSize" width="449" height="118"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="z19-Gw-jdY"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="bottomView" destination="tNt-VA-8bi" id="iFz-Ls-Ufn"/>
+                <outlet property="locationLabel" destination="UiM-9V-Jt1" id="avJ-n2-4jr"/>
+                <outlet property="nameLabel" destination="8EO-pY-1vj" id="3fR-Cx-TQX"/>
+                <outlet property="userIcon" destination="Xyy-E1-zna" id="ggr-bW-NtX"/>
+            </connections>
+            <point key="canvasLocation" x="276" y="307"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="aa.png" width="60" height="60"/>
+        <image name="home_locate" width="11" height="15"/>
+    </resources>
+</document>
